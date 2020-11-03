@@ -1,0 +1,26 @@
+- menu: Home
+  link: {{ site.url }}
+  icon: fas fa-home
+  dropdown: false
+ 
+- menu: Tutorials
+  link: "#"
+  icon: fas fa-pencil-alt
+  dropdown: true
+  dropdown_navs:
+    - drop_menu: Test 1
+      drop_link: https://test1.com
+    - drop_menu: Test 2
+      drop_link: https://test2.com
+    
+
+- menu: Blog
+  link: http://localhost:4000/blog
+  icon: fas fa-home
+  dropdown: false
+
+
+- menu: Docs
+  link: Documentation
+  icon: fas fa-file
+  dropdown: false

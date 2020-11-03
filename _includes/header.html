@@ -1,0 +1,27 @@
+<header class="header">
+    <nav class="responsive-navbar">
+        <div class="branding">
+            <h2><a href="#" class="branding-logo">{{ site.title_en }}</a></h2>
+        </div>
+        <label for="input-hamburger" class="hamburger"></label>
+        <input type="checkbox" name="" id="input-hamburger" hidden>
+        <ul class="responsive-menu">
+            {% for y in site.data.navbar %}
+                    <li {% if y.dropdown %} class="has-dropdown" {% endif %}>
+                            <a href="{{ y.link }}" class="menu-link">{{ y.menu }}
+                                {% if y.dropdown %}
+                                     <span class="arrow"></span>
+                                {% endif %}
+                            </a>
+                            {% if y.dropdown %}
+                            <ul class="submenu">
+                                {% for d in y.dropdown_navs %}
+                                    <li><a href="{{ d.drop_link }}">{{ d.drop_menu }}</a></li>
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                    </li>
+            {% endfor %}
+        </ul> <!-- menu closes here -->
+    </nav>
+</header>

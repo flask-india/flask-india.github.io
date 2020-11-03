@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<article>
+
+  <div class="w3-container">
+    {{ content }}
+    {% include project_tags.html %}
+    {% for i in site.data.projects %}
+    <div class="w3-card Tag" id="{{ i.tags }}"
+    	<div class="well project-outer">
+    		<div class="project-inner">
+    			<a href="/static/projects/{{ i.image }}" class="w3-image">
+    			<div class="project-img bordered" style="background-image: url('/static/projects/{{ i.image }}');"></div>
+                </a>
+                {% if i.url %} <a href="{{ i.url }}"> {% endif %}
+    			<h3 class="project-headlines">{{ i.name }}</h3>
+    			{% if i.url %} </a> {% endif %}
+    			<div class="w3-container w3-cards">
+    				<div class="w3-tags">
+    				{% if i.tags %} 
+    					{% for j in i.tags %}
+    					<span class="label tags tag-filter" data-tag="{{ j | downcase }}">{{ j }}</span>
+    					{% endfor %}
+    				{% endif %}
+    				</div>
+    				
+    			</div>
+    			<div class="project-footer"> 
+    				{% if i.url %} 
+    				<a href="{{ i.url }}" class="btn btn-info btn-raised btn-sm project-link">View</a>
+    				{% endif %}
+    				<span class="project-timeline">{{ i.date }}</span>
+    			</div>
+    		</div>
+    	</div>
+        </div>
+    {% endfor %}
+    </div>
+
+</article>
+<script>
+function openTag(TagName) {
+    var i;
+    var x = document.getElementsByClassName("Tag");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    document.getElementById(TagName).style.display = "block";  
+}
+</script>
+

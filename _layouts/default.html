@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title_en }}</title>
+    {% include styles.html %}
+</head>
+
+<body class="hide-scrollbar">
+    {% include header.html %}
+    <div class="clearfix mt2">
+        <article class="ml2 mr2 mt4">
+            <div class="sm-col md-col-8">
+                {{ content }}
+            </div>
+        </article>
+        <div class="sm-col md-col md-col-4">
+        </div>
+        </article>
+        <div class="sm-col md-col md-col-4">
+            {% include about_me.html  %}
+        </div>
+    </div>
+    {% include scripts.html %}
+</body>
+</html>
