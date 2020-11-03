@@ -4,7 +4,7 @@ layout: post
 title:  "Horizontal scroll box"
 date:   2017-06-17 10:07:39 -0700
 category: Web_Designing
-img: /static/IMG/html1.jpg
+img: /static/img/html1.jpg
 color: green
 theme_color: "#4CAF50"
 tags: 

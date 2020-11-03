@@ -4,7 +4,7 @@ layout: post
 title: Preview&#x003A; Vedic Mathematics
 date:   2018-05-23 10:07:39 -0700
 category: Vedic_Mathematics
-img: /static/IMG/maths2.jpeg
+img: /static/img/maths2.jpeg
 MathJax: true
 color: deep-purple
 theme_color: "#673ab7"

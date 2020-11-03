@@ -4,7 +4,7 @@ layout: post
 title: Ultrasonic Range Measurement
 date:   2017-06-07 13:50:39
 category: Electronics
-img: /static/IMG/distance.jpg
+img: /static/img/distance.jpg
 color: teal
 theme_color: "#009688"
 tags: 
