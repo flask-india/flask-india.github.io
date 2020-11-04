@@ -4,6 +4,7 @@ layout: post
 title: "Python Object Oriented Programming"
 date: 2019-09-19 22:07:39 -0700
 category: Python_Programming
+category_name: പൈത്തണ്‍ പ്രോഗ്രാമ്മിങ്
 img: /static/img/python_snake.jpg
 color: green
 theme_color: "#4CAF50"
