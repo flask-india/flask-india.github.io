@@ -3,6 +3,7 @@ lang: en
 layout: post
 title: "Introduction to Python"
 date: 2018-12-15 23:07:39 -0700
+date_ml: 2018 ഡിസംബര്‍ 15
 category: Python_Programming
 img: /static/img/python_snake.jpg
 color: teal

@@ -1,9 +1,11 @@
-{% if page.img_url == true %}<div class="splash-container w3-display-container" style="background-image:url({{ page.img }});margin-top:20px">
-{% else %}<div class="splash-container w3-display-container" style="background-image:url({{ site.url }}{{ site.baseurl }}{{ page.img }});margin-top:30px">{% endif %}
+{% if page.img_url == true %}<div class="splash-container" style="background-image:url({{ page.img }});">
+{% else %}<div class="splash-container" style="margin-left: 0; padding-left: 0;background-image:url({{ site.url }}{{ site.baseurl }}{{ page.img }});">{% endif %}
     <div class="splash">
         <h1 class="splash-head">{{ page.title }}</h1>
-        <p class="splash-subhead">
-            Posted On: {{ page.date | date_to_long_string }}
-        </p>
+        <span class="splash-subhead">
+            {% comment %}പോസ്റ്റ് ചെയ്തത്: {{ page.date | date_to_long_string }}{% endcomment %}
+            പോസ്റ്റ് ചെയ്തത്: {{ page.date_ml }}
+        </span>
     </div>
+</div>
 </div>

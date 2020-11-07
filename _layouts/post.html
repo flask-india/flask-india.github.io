@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ml">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.title_en }}</title>
+    <title>{{ site.title_ml }}</title>
     {% include styles.html %}
 </head>
-<body>
+<body class="hide-scrollbar">
 {% include header.html %}
-{% include parallax.html %}	
+{% comment %}{% include parallax.html %}{% endcomment %}
+{% include parallax.html %}
 <div class="content-wrapper">
-<div class="w3-row-padding w3-padding-64 w3-container">
-  <div class="content w3-content">
-    <div class="w3-twothird">   
-      <article id="artLink">
-         {{ content }}
+  <div class="clearfix mt2">
+    <article class="ml2 mr2 mt4">
+        <div class="sm-col md-col-8">   
+        <article id="artLink">
+          {{ content }}
 	<!-- Adsense -->
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<ins class="adsbygoogle"
@@ -63,10 +64,10 @@
 {% endif %}
 <div class="w3-bar w3-round">
   {% if page.previous.url %}
-    <a class="w3-{{ page.color | default: 'deep-orange' }} w3-button" href="{{ site.baseurl }}{{ page.previous.url }}">&laquo; Previous</a>
+    <a class="w3-{{ page.color | default: 'deep-orange' }} w3-button" href="{{ site.baseurl }}{{ page.previous.url }}">&laquo; പിന്നോട്ട്</a>
   {% endif %}
   {% if page.next.url %}
-    <a class="w3-{{ page.color | default: 'deep-orange' }} w3-button w3-right" href="{{ site.baseurl }}{{ page.next.url }}">Next &raquo;</a>
+    <a class="w3-{{ page.color | default: 'deep-orange' }} w3-button w3-right" href="{{ site.baseurl }}{{ page.next.url }}">മുന്നോട്ട് &raquo;</a>
   {% endif %}
 </div>
 <div class="w3-container">
@@ -88,12 +89,12 @@
       </div>
     </div>
  </div>
-	<div class="w3-third w3-container w3-content w3-hide-small">
+ <div class="sm-col md-col md-col-4 w3-hide-small">
            {% include about_me.html %}
         </div>
       </div>
-   </div>
-  {% raw %}{% include footer.html %}{% endraw %}
+   <!-- </div> -->
+  {% include footer.html %}
 <script src="{{ site.baseurl }}/assets/js/super-search.min.js"></script>
 </div>
 </body>
