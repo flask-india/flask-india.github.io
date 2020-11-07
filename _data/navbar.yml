@@ -15,7 +15,7 @@
     
 
 - menu: ബ്ലോഗ്
-  link: http://localhost:4000/blog
+  link: https://stackquest.github.io/blog
   icon: fas fa-home
   dropdown: false
 
