@@ -1,5 +1,5 @@
 /* PrismJS 1.22.0
-https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+arduino+basic+c+cpp+css-extras+dart+diff+django+docker+git+go+java+javadoclike+json+json5+jsonp+julia+kotlin+latex+lua+markdown+markup-templating+matlab+mongodb+nginx+objectivec+php+phpdoc+php-extras+plsql+powershell+processing+python+r+jsx+tsx+regex+ruby+rust+sass+scss+sql+typescript+vbnet+vhdl+vim+visual-basic+yaml&plugins=line-highlight+line-numbers+file-highlight+show-language+highlight-keywords+remove-initial-line-feed+inline-color+previewers+autoloader+command-line+unescaped-markup+normalize-whitespace+toolbar+copy-to-clipboard+download-button+match-braces+diff-highlight+treeview */
+https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+apacheconf+arduino+bash+basic+c+csharp+cpp+css-extras+dart+diff+django+docker+git+go+graphql+java+json+json5+jsonp+julia+kotlin+latex+lua+makefile+markdown+markup-templating+matlab+nginx+php+powershell+processing+pug+python+r+jsx+tsx+regex+rust+sass+scss+sql+swift+typescript+vbnet+verilog+vhdl+vim+visual-basic+yaml&plugins=line-highlight+line-numbers+show-language+highlight-keywords+remove-initial-line-feed+previewers+command-line+normalize-whitespace+toolbar+copy-to-clipboard+download-button+match-braces+treeview */
 /**
  * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
  * Based on https://github.com/chriskempson/tomorrow-theme
@@ -39,7 +39,7 @@ pre[class*="language-"] {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-	background: #2d2d2d;
+	background:#2e3e4e;
 }
 
 /* Inline code */
@@ -287,40 +287,6 @@ div.code-toolbar > .toolbar span:hover,
 div.code-toolbar > .toolbar span:focus {
 	color: inherit;
 	text-decoration: none;
-}
-
-span.inline-color-wrapper {
-	/*
-	 * The background image is the following SVG inline in base 64:
-	 *
-	 * <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 2">
-	 *     <path fill="gray" d="M0 0h2v2H0z"/>
-	 *     <path fill="white" d="M0 0h1v1H0zM1 1h1v1H1z"/>
-	 * </svg>
-	 *
-	 * SVG-inlining explained:
-	 * https://stackoverflow.com/a/21626701/7595472
-	 */
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyIDIiPjxwYXRoIGZpbGw9ImdyYXkiIGQ9Ik0wIDBoMnYySDB6Ii8+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0wIDBoMXYxSDB6TTEgMWgxdjFIMXoiLz48L3N2Zz4=");
-	/* This is to prevent visual glitches where one pixel from the repeating pattern could be seen. */
-	background-position: center;
-	background-size: 110%;
-
-	display: inline-block;
-	height: 1.333ch;
-	width: 1.333ch;
-	margin: 0 .333ch;
-	box-sizing: border-box;
-	border: 1px solid white;
-	outline: 1px solid rgba(0,0,0,.5);
-	overflow: hidden;
-}
-
-span.inline-color {
-	display: block;
-	/* To prevent visual glitches again */
-	height: 120%;
-	width: 120%;
 }
 
 .prism-previewer,
@@ -599,17 +565,6 @@ span.inline-color {
 	content: attr(data-prompt);
 }
 
-/* Fallback, in case JS does not run, to ensure the code is at least visible */
-[class*='lang-'] script[type='text/plain'],
-[class*='language-'] script[type='text/plain'],
-script[type='text/plain'][class*='lang-'],
-script[type='text/plain'][class*='language-'] {
-	display: block;
-	font: 100% Consolas, Monaco, monospace;
-	white-space: pre;
-	overflow: auto;
-}
-
 .token.punctuation.brace-hover,
 .token.punctuation.brace-selected {
 	outline: solid 1px;
@@ -638,20 +593,6 @@ script[type='text/plain'][class*='language-'] {
 .rainbow-braces .token.punctuation.brace-level-12 {
 	color: #E0E;
 	opacity: 1;
-}
-
-pre.diff-highlight > code .token.deleted:not(.prefix),
-pre > code.diff-highlight .token.deleted:not(.prefix) {
-	background-color: rgba(255, 0, 0, .1);
-	color: inherit;
-	display: block;
-}
-
-pre.diff-highlight > code .token.inserted:not(.prefix),
-pre > code.diff-highlight .token.inserted:not(.prefix) {
-	background-color: rgba(0, 255, 128, .1);
-	color: inherit;
-	display: block;
 }
 
 .token.treeview-part .entry-line {
