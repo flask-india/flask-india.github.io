@@ -8,19 +8,9 @@ layout: default
         {% capture category_slug %}{{ category | first }}{% endcapture %}
         {% for c_slug in category_slug %}
             {% if c_slug == page.categories %}
-                <!-- {{ c_slug }} -->
-                <!-- <button class="w3-button w3-teal w3-ripple">{{ c_slug | replace: '_' , ' ' }}</button> -->
-                {% for ml_category in site.data.category %}
-                    {% if ml_category.category == c_slug  %}
-                        <button class="w3-button w3-teal w3-ripple m1">{{ ml_category.title }}</button>
-                    {% endif %}
-                {% endfor %}
+                <button class="w3-button w3-teal w3-ripple m1">{{ c_slug | replace: '_' , ' ' }}</button>
             {% else %}
-            {% for ml_category in site.data.category %}
-            	{% if ml_category.category == c_slug  %}
-                	<a href="{{ site.url }}{{site.baseurl}}/category/{{ c_slug }}" class="w3-button w3-red w3-ripple w3-hover-green m1">{{ ml_category.title }}</a>
-                {% endif %}
-            {% endfor %}
+                <a href="{{ site.url }}{{site.baseurl}}/category/{{ c_slug }}" class="w3-button w3-red w3-ripple w3-hover-green m1">{{ c_slug | replace: '_',' ' }}</a>
             {% endif %}
         {% endfor %}
     {% endfor %}

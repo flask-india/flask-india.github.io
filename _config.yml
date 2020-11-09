@@ -10,11 +10,14 @@
 # in the templates via {{ site.myvariable }}.
 
 title_en: StackQuest
-title_ml: സ്റ്റാക്ക് ക്വസ്റ്റ്
+title_ml: സ്റ്റാക്ക്ക്വസ്റ്റ്
 author: Arun K Soman
 author_ml: "അരുണ്‍ കെ സോമന്‍"
 disqus_shortname: stackquest
 email: arunksoman@yandex.com
+
+ca_pub_id: ca-pub-7300212199014697
+
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -29,16 +32,16 @@ paginate_path: "/blog/page:num/"
 highlighter: rouge
 markdown: kramdown
 
-kramdown:
-  input: GFM
-  syntax_highlighter_opts:
-    default_lang: html
-    css_class: 'highlight'
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
+# kramdown:
+#   input: GFM
+#   syntax_highlighter_opts:
+#     default_lang: html
+#     css_class: 'highlight'
+#     span:
+#       line_numbers: false
+#     block:
+#       line_numbers: true
+#       start_line: 1
 # gems: [jekyll-paginate, jekyll-gist]
 # Build settings
 # theme: minima
