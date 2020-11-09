@@ -5,26 +5,15 @@
 layout: default
 ---
 
-**Lorem ipsum dolor sit amet**, consectetur adipisicing elit. Obcaecati sed temporibus amet nisi, veniam quod aspernatur molestias repellendus nihil doloremque, veritatis fugiat, ex laborum repudiandae officia ullam voluptatum aliquid ipsam quia impedit incidunt ipsa optio ab. Cupiditate accusamus necessitatibus fugiat facere corrupti repellendus reiciendis blanditiis voluptate in nesciunt vero ipsum laborum, quaerat tempore aut consequuntur rem labore porro libero suscipit deserunt unde tempora possimus perferendis nemo. Officia ea veritatis blanditiis iusto tenetur adipisci reprehenderit optio, expedita, omnis ullam eius numquam, vitae fugit nisi? Odit perferendis hic incidunt totam sint, quasi iste illum error dolor ipsam ab est magnam. Dolorum, facilis!
+സുഹൃത്തുക്കളേ ഞാന്‍ അരുണ്‍. നിങ്ങള്‍ക്ക് സ്റ്റാക്ക്ക്വസ്റ്റ് എന്ന ഈ വെബ്സൈറ്റിലേക്ക് സ്വാഗതം. ഈയൊരു വെബ്സൈറ്റ് കൊണ്ട് ഞാന്‍ ഉദ്ദേശിക്കുന്നത് പ്രോഗ്രാമ്മിങ്, ഇലക്ട്രോണിക്സ് തുടങ്ങിയ വിഷയങ്ങളുടെ അടിസ്ഥാന പാഠങ്ങളും ആശയങ്ങളും ചര്‍ച്ച ചെയ്യുക എന്നുള്ളതാണ്.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationeveritatis repellendus optio vitae incidunt! Laudantium architecto optio similiqumolestias velit, quo, quae iure corporis, repellendus nostrum suscipit minimdeserunt perspiciatis sequi perferendis possimus veniam eos quibusdam atquaccusamus molestiae debitis. Ullam, recusandae fuga perferendis voluptatum quassimilique, odit enim. Maxime distinctio, aperiam beatae. Odio adipisci laboriosaeveniet provident voluptatem ipsam minima, quod dolore doloremque earum corporinobis, quibusdam sit, ad. Illo unde magnam molestias dolorem veritatis enimolestiae, eaque praesentium aperiam, quae esse minima voluptates iste voluptatdoloribus impedit quos, facere! Explicabo, fugiat officiis dolorem vero! Moddebitis perferendis dolor.
+ഈയൊരു വെബ്സൈറ്റ് എഴുതാനുള്ള പ്രധാന കാരണം യൂട്യൂബിലും മറ്റും പ്രോഗ്രാമ്മിങ്ങിനെക്കുറിച്ച് തെറ്റിദ്ധരിപ്പിക്കുന്ന പല വീഡിയോകളും കാണാന്‍ ഇടയായി. കമ്പ്യൂട്ടര്‍ സയന്‍സ് പടിക്കാത്ത എന്‍റെ മനസ്സിനെ സംതൃപ്തിപ്പെടുത്തുന്നതായിരുന്നില്ല ആ വീഡിയോകള്‍. എന്റേതായ വീഡിയോകള്‍ എടുക്കാന്‍ സാങ്കേതികമായി വളരെയേറെ തടസ്സങ്ങള്‍ മുന്നിലുണ്ട്. അതിനാലാണ് ലേഖനങ്ങളിലൂടെ  ഇത്തരം ആശയങ്ങള്‍ ജനങ്ങളിലേക്ക് എത്തിക്കാന്‍ ശ്രമിക്കുന്നത്.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dolorum ipsat inventore libero velit ratione in dicta, qui impedit cum assumendanecessitatibus, alias optio temporibus iste voluptatem quos. Rem, repellat illumEum doloribus nobis, deserunt molestias at labore quo culpa, sequi debitis numquaenim aliquid voluptatum aperiam cumque repudiandae facilis asperiores nemo nostruunde soluta. Obcaecati adipisci animi consectetur pariatur, blanditiis delenitnon quibusdam laudantium, aut unde inventore illo, fugiat exercitationemrecusandae quasi? Ex voluptates nihil, accusantium. Facilis, quos saepe ipsadistinctio perspiciatis sed, ullam voluptatum. Culpa veniam laboriosam quas veliodit possimus quaerat, magni fuga, nam maxime at!
+ഞാന്‍ മലയാളം സംസാരിക്കുമ്പോളും എഴുതുമ്പോളും ധാരാളം സാധാരണമായി ഉപയോഗിയ്ക്കാത്ത അച്ചടി ഭാഷയിലുള്ള പദങ്ങള്‍ ഉപയോഗിക്കാറുണ്ട്. ആ ഒരു കാര്യം എന്നോടു സംസാരിക്കുമ്പോള്‍ മറ്റുള്ളവര്‍ക്ക് ബുദ്ധിമുട്ട് ഉണ്ടാക്കാറുണ്ട്. എന്നാല്‍ ഈ ബ്ലോഗില്‍ ഞാന്‍ എഴുത്തുന്ന ലേഖനങ്ങളില്‍ അത്തരം വാക്കുകള്‍ പരമാവധി ഒഴിവാക്കാന്‍ ഞാന്‍ പരമാവധി ശ്രമിക്കാം.
 
-<ul class="ulist">
-  <li>item1</li>
-  <li>item2</li>
-  <li>item3</li>
-    <ul class="ulist">
-      <li>item 3.1</li>
-      <li>item 3.2</li>
-          <ul class="ulist">
-            <li>item 3.1</li>
-            <li>item 3.2</li>
-            <li>item 3.3</li>
-          </ul>
-      <li>item 3.3</li>
-    </ul>
-  <li>item4</li>
-  <li>item5</li>
-</ul>
+ഈയൊരു ബ്ലോഗ് ഗിറ്റ്ഹബ്ബില്‍ ആണ് ഹോസ്റ്റ്  ചെയ്തിരിക്കുന്നത്. ഈയൊരു ബ്ലോഗ് പരമാവധി മാര്‍ക്ക്ഡൌണ്‍ പിന്തുണയോടെ ജെകില്‍ എന്ന ബ്ലോഗ് അവേര്‍ (Blog aware)  സ്റ്റാറ്റിക് വെബ്സൈറ്റ് ജനറേറ്റര്‍ ഉപയോഗിച്ചാണ് നിര്‍മിച്ചിരിക്കുന്നത്. {% comment %}ഞാന്‍ കോളേജില്‍ പഠിക്കുന്ന കാലം കൊച്ചി മെട്രോയുടെ നിര്‍മാണം പുരോഗമിക്കുന്ന ഒരു സമയം ആയിരുന്നു. അപ്പോള്‍ ട്രാഫിക് ബ്ലോക്കില്‍ മണിക്കൂറുകളോളം ബസ് കുടുങ്ങിക്കിടക്കുമായിരുന്നു. ഈയൊരു സമയം ഞാന്‍ ഫലപ്രദമായി വിനിയോഗിച്ചാണ് എങ്ങനെയാണ് ജെകില്‍ ഉപയോഗിച്ച് വെബ്സൈറ്റ് നിര്‍മിക്കാം എന്ന് പഠിച്ചത്.{% endcomment %} ഈയൊരു വെബ്സൈറ്റ് നിങ്ങള്‍ക്ക് ഉപയോഗപ്പെടുത്താം, മെച്ചപ്പെടുത്തി പുള്‍ റിക്വസ്റ്റുകള്‍ അയക്കാം, എവിടെയെങ്കിലും തെറ്റുകള്‍ വന്നിട്ടുണ്ടെങ്കില്‍ അത് തിരുത്തനറിയില്ല എങ്കില്‍ ചൂണ്ടിക്കാട്ടം. അതായത് ഈ വെബ്സൈറ്റ് തീം മിറ്റ് ലൈസെന്‍സിന് കീഴില്‍ ആണ്. എന്നാല്‍ ദയവായി ഈ ബ്ലോഗിലെ ലേഖനങ്ങള്‍ ഉപയോഗപ്പെടുത്തുന്നവര്‍ ശ്രദ്ധിക്കുക, ഈ ബ്ലോഗില്‍ പ്രസിദ്ധീകരിക്കുന്ന ലേഖനങ്ങള്‍ ക്രിയേറ്റീവ് കോമ്മണ്‍സ് ലൈസെന്‍സിന് കീഴില്‍ ആണ്. ക്രിയേറ്റീവ് കോമ്മണ്‍സ് ലൈസന്‍സ് അനുശാസിക്കുന്ന രീതിയില്‍ ഈ ലേഖനങ്ങള്‍ പുനപ്രസിദ്ധീകരിക്കുന്നതില്‍ എനിക്ക് യാതൊരു വിധ പ്രശ്നങ്ങളും ഇല്ല എന്ന് ഇതിനോടകം അറിയിച്ചുകൊള്ളട്ടെ.
+
+## നന്ദി:
+
+* അശുതോഷ് ചൌധരി
+* കുശാഗ്ര ഗൌര്‍

@@ -6,7 +6,8 @@ a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:
 dfn{font-style:italic}mark{background:#ff0;color:#000}
 small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
 sub{bottom:-0.25em}sup{top:-0.5em}figure{margin:1em 40px}img{border-style:none}svg:not(:root){overflow:hidden}
-code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}hr{box-sizing:content-box;height:0;overflow:visible}
+/* code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em;padding:1em; overflow-x: auto;word-wrap: nowrap;} */
+hr{box-sizing:content-box;height:0;overflow:visible}
 button,input,select,textarea{font:inherit;margin:0}optgroup{font-weight:bold}
 button,input{overflow:visible}button,select{text-transform:none}
 button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}
@@ -296,3 +297,29 @@ tr:hover{background-color:#ddd;}
 th{padding-top:12px;padding-bottom:12px;text-align:left;background-color:#4CAF50;color:white;}
 blockquote{border-left:0.3rem solid #d1d1d1;margin-left:0;margin-right:0;padding:1rem 1.5rem;}
 blockquote *:last-child{margin-bottom:0;}
+
+code,kbd,pre,samp {
+    font-family: "Ubuntu Mono",SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New","Noto Serif SC",STSong,monospace;
+    font-size: 1em
+}
+
+pre {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    overflow: auto
+}
+.lineno{
+    color: #ffffff;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.code:hover{
+    border: 0px solid transparent;
+}
+.rouge-rouge-gutter:hover {
+    border: 0px solid transparent;
+}

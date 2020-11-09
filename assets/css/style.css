@@ -1,3 +1,4 @@
+@import url('https://smc.org.in/fonts/manjari.css');
 :root{
   box-sizing: border-box;
 
@@ -7,11 +8,12 @@
   --light: #FFFFFF;
   --header: var(--primary);
   --font_color: #000000;
-  --grey: #B0BEC5 /* Blue Gray 200 */
+  /* --grey: #B0BEC5; */ /* Blue Gray 200 */
 }
 
 *, *::after, *::before{
   box-sizing: inherit;
+  background-repeat: no-repeat;
   margin: 0;
   padding: 0;
 }
@@ -22,8 +24,11 @@
 .hide-scrollbar::-webkit-scrollbar{
   display: none;
 }
+html{
+  -webkit-tap-highlight-color: transparent;
+}
 body{
-  font-family: 'Roboto','Gayathri', sans-serif;
+  font-family: 'Manjari', sans-serif;
   font-size: 1rem;
   background-color: var(--light);
   box-shadow: 0 0 1.4rem 8rem rgba(0, 0, 0, 0.2);
@@ -34,10 +39,10 @@ p{
   line-height: 2em;
   text-indent: 3em;
   color: var(--font_color);
-  font-weight: 700;
+  /* font-weight: 400; */
 }
 b{
-  font-weight: 900;
+  /* font-weight: 800; */
 }
 .ulist{
   /* margin: 1em; */
@@ -47,14 +52,14 @@ b{
   list-style-position: inner;
 }
 
-article > ul{
+article ul{
   /* margin: 1em; */
   text-align: justify;
   line-height: 1.8em;
   margin-left: 3em;
   list-style-position: inner;
 }
-article > ol{
+article ol{
   text-align: justify;
   line-height: 1.8em;
   margin-left: 3em;
