@@ -1,5 +1,5 @@
 - menu: Home
-  link: https://stackquest.github.io
+  link: https://flask-india.github.io
   icon: fas fa-home
   dropdown: false
  
@@ -15,7 +15,7 @@
     
 
 - menu: Blog
-  link: https://stackquest.github.io/blog
+  link: https://flask-india.github.io/blog
   icon: fas fa-home
   dropdown: false
 
