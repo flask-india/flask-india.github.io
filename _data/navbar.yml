@@ -1,9 +1,9 @@
-- menu: പൂമുഖം
+- menu: Home
   link: https://stackquest.github.io
   icon: fas fa-home
   dropdown: false
  
-- menu: ട്യൂട്ടോറിയലുകള്‍
+- menu: Tutorials
   link: "#"
   icon: fas fa-pencil-alt
   dropdown: true
@@ -14,13 +14,13 @@
       drop_link: https://test2.com
     
 
-- menu: ബ്ലോഗ്
+- menu: Blog
   link: https://stackquest.github.io/blog
   icon: fas fa-home
   dropdown: false
 
 
-- menu: ഡോക്സ്
+- menu: Docs
   link: Documentation
   icon: fas fa-file
   dropdown: false
