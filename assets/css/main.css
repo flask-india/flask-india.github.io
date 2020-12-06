@@ -29,7 +29,7 @@ html{
 }
 body{
   font-family: 'Manjari', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   background-color: var(--light);
   box-shadow: 0 0 1.4rem 8rem rgba(0, 0, 0, 0.2);
 }
