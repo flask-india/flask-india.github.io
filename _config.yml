@@ -9,7 +9,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title_en: Flask-India
+title: Flask-India
 author: Flask India
 disqus_shortname: Flask India
 
