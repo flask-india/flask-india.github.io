@@ -9,14 +9,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title_en: StackQuest
-title_ml: സ്റ്റാക്ക്ക്വസ്റ്റ്
-author: Arun K Soman
-author_ml: "അരുണ്‍ കെ സോമന്‍"
-disqus_shortname: stackquest
-email: arunksoman@yandex.com
-
-ca_pub_id: ca-pub-7300212199014697
+title_en: Flask-India
+author: Flask India
+disqus_shortname: Flask India
 
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
