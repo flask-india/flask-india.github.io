@@ -2,7 +2,7 @@
 layout: default
 ---
 
-    <h1 class="w3-xlarge">ആര്‍ട്ടിക്കിളുകള്‍ ക്യാറ്റഗറി ക്രമത്തില്‍: {{ page.category_title | replace: '_' , ' ' }}</h1>
+    <h1 class="w3-xlarge">Articles by category {{ page.category_title | replace: '_' , ' ' }}</h1>
     <hr />
     {% for category in site.categories %}
         {% capture category_slug %}{{ category | first }}{% endcapture %}
